@@ -1,0 +1,17 @@
+[package]
+name = "repositui"
+version = "0.0.0"
+authors = ["Khush Mehta <realkhushmehta@gmail.com>"]
+edition = "2024"
+description = "General purpose version control TUI"
+readme = "README.md"
+repository = "https://github.com/khushmmehta/repositui"
+license = "Apache-2.0"
+keywords = ["git", "jj", "VCS", "tui"]
+categories = ["command-line-utilities", "data-structures", "development-tools"]
+
+[[bin]]
+name = "rt"
+path = "src/main.rs"
+
+[dependencies]
